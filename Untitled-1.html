@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!--
+  tudo oq estiver entre "setinha-exclamaçao-traço-traço" e "traço-traço-setinha"
+  é um comentario, ou seja, o navegador ignora. serve p anotar coisas
+-->
+
+<!-- a tag <html> envolve a pagina inteira. lang="pt-BR" diz que o texto é em portugues brasileiro. -->
+<html lang="pt-BR">
+
+  <!-- o <head> (cabeça) guarda informaçoes sobre a pagina. nada daqui aparece na tela, serve p organizar o site -->
+  <head>
+    <!-- charset é o codigo q faz os acentos (á, ç, ã...) aparecerem direito -->
+    <meta charset="UTF-8">
+
+    <!-- o nome do <title> é o nome que aparece na aba do navegador -->
+    <title>nycole stefany é o amor da minha vida</title>
+
+    <!-- o <style> guarda o css, q é tipo a "maquiagem" da página (cores, tamanhos, fontes) -->
+    <style>
+      body {
+        font-family: Arial, sans-serif;  /* fonte da letra */
+        background-color: #fff0f5;       /* cor de fundo (rosa bem clarinho) */
+        color: #333333;                  /* cor do texto */
+        max-width: 600px;                /* largura maxima do conteudo */
+        margin: 40px auto;               /* centraliza a pagina */
+        padding: 0 20px;
+      }
+
+      h1 {
+        color: #d81b74;                  /* cor do titulo principal */
+      }
+
+      .destaque {
+        background-color: #ffe0ec;
+        padding: 12px;
+        border-radius: 10px;             /* deixa os cantos arredondados */
+      }
+    </style>
+  </head>
+
+  <!-- o <body> (corpo) guarda tudo o que APARECE na página -->
+  <body>
+
+    <!-- os titulos vao de <h1> (o maior e mais importante) ate <h6> (o menor) -->
+    <h1>nycole gostosa</h1>
+    <h2>aprendendo html</h2>
+
+    <!-- <p> é um paragrafo, <strong> deixa em negrito e <em> deixa em italico -->
+    <p>
+      oiee essa é a minha <strong>primeira pagina</strong> feita em html.
+      eu to <em>aprendendo</em> codigos e amo muito o bertunes rsrs.
+    </p>
+
+    <!-- <hr> é uma linha horizontal p separar as partes -->
+    <hr>
+
+    <h2>coisas q eu gosto</h2>
+
+    <!-- <ul> é uma lista com marcadores, cada item usa <li> -->
+    <ul>
+      <li>flores</li>
+      <li>musica</li>
+      <li>bertunes</li>
+    </ul>
+
+    <h2>meu top 3 de filmes</h2>
+
+    <!-- <ol> é uma lista numerada -->
+    <ol>
+      <li>10 coisas que odeio em voce</li>
+      <li>festa da salsicha</li>
+      <li>bertunes - o filme</li>
+    </ol>
+
+    <!-- <div> é uma tipo uma caixa que agrupa coisas. A class liga a caixa ao estilo .destaque la de cima -->
+    <div class="destaque">
+      <p>essa caixa tem um fundo diferente pq eu usei uma <strong>class</strong>! é isso ai</p>
+    </div>
+
+    <h2>sim isso é um link</h2>
+
+    <!-- <a> cria um link, o site fica em href e target="_blank" abre em outra aba -->
+    <p>
+      quer pesquisar alguma coisa?
+      <a href="https://www.google.com" target="_blank">clique aqui para ir direto pro google</a>
+    </p>
+
+    <h2>uma imagem</h2>
+
+    <!-- <img> mostra uma imagem, src é o endereço dela e alt é a descriçao (util se ela nao carregar) -->
+    
+    <img src="foto.jpg" alt="o amor da minha vida" width="300">
+
+    <h2>um botao</h2>
+
+    <!-- <button> cria um botao, o onclick diz oq acontece quando alguem clica nele -->
+    <button onclick="alert('Você clicou no botão!')">quero apertar o botao da nycole rs la eleeee</button>
+
+  </body>
+</html>
